@@ -1,4 +1,0 @@
-* text=auto
-*.css eol=lf
-yarn.lock -diff
-package-lock.json -diff
