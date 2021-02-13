@@ -4,7 +4,7 @@ import prettier from 'prettier/standalone';
 import cssParser from 'prettier/parser-postcss';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import className from 'classnames';
-import { RingSpinner as Loader } from 'react-spinners-kit';
+import { RingSpinner as Loader } from '../components/editor/RingSpinner.js';
 import MainEditor from '../components/editor/main';
 import OutputEditor from '../components/editor/output';
 import unicode from '../helper/unicode';
@@ -35,21 +35,21 @@ export default () => {
 
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('vs-dark');
   const [editorLoading, setEditorLoading] = useState(false);
   const [output, setOutput] = useState('/* your optimized output here */');
   const [input, setInput] = useState(intializedState.input);
   const [config, setConfig] = useState(intializedState.config);
 
   function toggleTheme() {
-    setTheme(theme === 'light' ? 'dark' : 'light');
+    setTheme(theme === 'light' ? 'vs-dark' : 'light');
   }
 
-  function handleConfigChange(e, value) {
+  function handleConfigChange(value) {
     setConfig(value);
   }
 
-  function handleOnInput(e, value) {
+  function handleOnInput(value) {
     setInput(value);
   }
 
