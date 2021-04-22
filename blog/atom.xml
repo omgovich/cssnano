@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cssnano.github.io/blog</id>
+    <title>CSSNANO Blog</title>
+    <updated>2021-04-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cssnano.github.io/blog"/>
+    <subtitle>CSSNANO Blog</subtitle>
+    <icon>https://cssnano.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[cssnano 5 is available]]></title>
+        <id>cssnano-5-release-notes</id>
+        <link href="https://cssnano.github.io/blog/cssnano-5-release-notes"/>
+        <updated>2021-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We have released a new major version of cssnano.]]></summary>
+    </entry>
+</feed>
